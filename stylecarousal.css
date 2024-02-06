@@ -1,0 +1,24 @@
+.corousal-container {
+  width:90%;
+  height:300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 10px;
+  margin-inline: auto;
+  background-color:lavender;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.corousal-img {
+  width:100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0px;
+  transition: all 600ms linear;
+}
+
+.hide {
+  opacity:0;
+}
